@@ -10,7 +10,7 @@ async function main() {
 
     const signer = await ethers.provider.getSigner();
 
-    await pdream.safeMint(signer.getAddress(), "ipfs://QmPZQXLHMxaZqXEWouzGt5m9QFZoGgpRtmW5PP9LN8gJA5");
+    await pdream.safeMint(signer.getAddress(), "ipfs://QmXWVBJvH1o5h7Girv9zxirNG2w4rJzwzELAokVPsmSGTt");
     console.log("PDREAM NFT minted!")
 }
 
